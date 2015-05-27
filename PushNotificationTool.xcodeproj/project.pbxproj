@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966AD8D21A39B86A003EB919 /* json-simple-1.1.1.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = 966AD8BC1A39B837003EB919 /* json-simple-1.1.1.jar */; };
+		966AD8D31A39B86A003EB919 /* netty-all-4.0.24.Final.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = 966AD8BD1A39B837003EB919 /* netty-all-4.0.24.Final.jar */; };
+		966AD8D41A39B86A003EB919 /* PushNotificationTool-1.0.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = 966AD8BE1A39B837003EB919 /* PushNotificationTool-1.0.jar */; };
+		966AD8D51A39B86A003EB919 /* slf4j-api-1.7.6.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = 966AD8BF1A39B837003EB919 /* slf4j-api-1.7.6.jar */; };
+		966AD8D61A39B86A003EB919 /* slf4j-simple-1.7.6.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = 966AD8C01A39B837003EB919 /* slf4j-simple-1.7.6.jar */; };
+		96887E4E1A2635FF00A062F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96887E321A26281900A062F0 /* main.m */; };
+		96887E4F1A2635FF00A062F0 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96887E381A26289200A062F0 /* HomeView.m */; };
+		96887E501A2635FF00A062F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96887E401A2628B000A062F0 /* AppDelegate.m */; };
+		96887E531A2635FF00A062F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967D3DCE1A18042A0021F596 /* Foundation.framework */; };
+		96887E541A2635FF00A062F0 /* JavaNativeFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96570DAD1A2107AF00782DC4 /* JavaNativeFoundation.framework */; };
+		96887E551A2635FF00A062F0 /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967D3DCC1A17FFF60021F596 /* JavaVM.framework */; };
+		96887E561A2635FF00A062F0 /* JavaRuntimeSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96570DAF1A2107B700782DC4 /* JavaRuntimeSupport.framework */; };
+		96887E6A1A26374200A062F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96887E681A26374200A062F0 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		966AD8D11A39B860003EB919 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 15;
+			files = (
+				966AD8D21A39B86A003EB919 /* json-simple-1.1.1.jar in CopyFiles */,
+				966AD8D31A39B86A003EB919 /* netty-all-4.0.24.Final.jar in CopyFiles */,
+				966AD8D41A39B86A003EB919 /* PushNotificationTool-1.0.jar in CopyFiles */,
+				966AD8D51A39B86A003EB919 /* slf4j-api-1.7.6.jar in CopyFiles */,
+				966AD8D61A39B86A003EB919 /* slf4j-simple-1.7.6.jar in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96570DAD1A2107AF00782DC4 /* JavaNativeFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaNativeFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework; sourceTree = "<absolute>"; };
+		96570DAF1A2107B700782DC4 /* JavaRuntimeSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaRuntimeSupport.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework; sourceTree = "<absolute>"; };
+		966AD8BC1A39B837003EB919 /* json-simple-1.1.1.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "json-simple-1.1.1.jar"; path = "PushNotification/Jars/json-simple-1.1.1.jar"; sourceTree = SOURCE_ROOT; };
+		966AD8BD1A39B837003EB919 /* netty-all-4.0.24.Final.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "netty-all-4.0.24.Final.jar"; path = "PushNotification/Jars/netty-all-4.0.24.Final.jar"; sourceTree = SOURCE_ROOT; };
+		966AD8BE1A39B837003EB919 /* PushNotificationTool-1.0.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "PushNotificationTool-1.0.jar"; path = "PushNotification/Jars/PushNotificationTool-1.0.jar"; sourceTree = SOURCE_ROOT; };
+		966AD8BF1A39B837003EB919 /* slf4j-api-1.7.6.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "slf4j-api-1.7.6.jar"; path = "PushNotification/Jars/slf4j-api-1.7.6.jar"; sourceTree = SOURCE_ROOT; };
+		966AD8C01A39B837003EB919 /* slf4j-simple-1.7.6.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "slf4j-simple-1.7.6.jar"; path = "PushNotification/Jars/slf4j-simple-1.7.6.jar"; sourceTree = SOURCE_ROOT; };
+		967D3DCC1A17FFF60021F596 /* JavaVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaVM.framework; path = System/Library/Frameworks/JavaVM.framework; sourceTree = SDKROOT; };
+		967D3DCE1A18042A0021F596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96887E311A26281900A062F0 /* PushNotificationTool-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PushNotificationTool-Info.plist"; path = "PushNotification/PushNotificationTool-Info.plist"; sourceTree = SOURCE_ROOT; };
+		96887E321A26281900A062F0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PushNotification/main.m; sourceTree = SOURCE_ROOT; };
+		96887E371A26289200A062F0 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeView.h; path = PushNotification/ViewControllers/HomeView.h; sourceTree = SOURCE_ROOT; };
+		96887E381A26289200A062F0 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeView.m; path = PushNotification/ViewControllers/HomeView.m; sourceTree = SOURCE_ROOT; };
+		96887E3F1A2628B000A062F0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PushNotification/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		96887E401A2628B000A062F0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PushNotification/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		96887E641A2635FF00A062F0 /* PushNotificationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96887E691A26374200A062F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = PushNotification/Base.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96887E511A2635FF00A062F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96887E531A2635FF00A062F0 /* Foundation.framework in Frameworks */,
+				96887E541A2635FF00A062F0 /* JavaNativeFoundation.framework in Frameworks */,
+				96887E551A2635FF00A062F0 /* JavaVM.framework in Frameworks */,
+				96887E561A2635FF00A062F0 /* JavaRuntimeSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966AD8BB1A39B82A003EB919 /* Jars */ = {
+			isa = PBXGroup;
+			children = (
+				966AD8BC1A39B837003EB919 /* json-simple-1.1.1.jar */,
+				966AD8BD1A39B837003EB919 /* netty-all-4.0.24.Final.jar */,
+				966AD8BE1A39B837003EB919 /* PushNotificationTool-1.0.jar */,
+				966AD8BF1A39B837003EB919 /* slf4j-api-1.7.6.jar */,
+				966AD8C01A39B837003EB919 /* slf4j-simple-1.7.6.jar */,
+			);
+			name = Jars;
+			sourceTree = "<group>";
+		};
+		967D3DA01A17FF4D0021F596 = {
+			isa = PBXGroup;
+			children = (
+				967D3DAB1A17FF4D0021F596 /* Push Notification Tool */,
+				96887E1C1A26203500A062F0 /* Frameworks */,
+				967D3DAA1A17FF4D0021F596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967D3DAA1A17FF4D0021F596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96887E641A2635FF00A062F0 /* PushNotificationTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967D3DAB1A17FF4D0021F596 /* Push Notification Tool */ = {
+			isa = PBXGroup;
+			children = (
+				966AD8BB1A39B82A003EB919 /* Jars */,
+				96887E3F1A2628B000A062F0 /* AppDelegate.h */,
+				96887E401A2628B000A062F0 /* AppDelegate.m */,
+				96887E361A26288200A062F0 /* View Controllers */,
+				967D3DAC1A17FF4D0021F596 /* Supporting Files */,
+			);
+			name = "Push Notification Tool";
+			path = PushNotificationManager;
+			sourceTree = "<group>";
+		};
+		967D3DAC1A17FF4D0021F596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96887E311A26281900A062F0 /* PushNotificationTool-Info.plist */,
+				96887E321A26281900A062F0 /* main.m */,
+				96887E681A26374200A062F0 /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96887E1C1A26203500A062F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967D3DCC1A17FFF60021F596 /* JavaVM.framework */,
+				967D3DCE1A18042A0021F596 /* Foundation.framework */,
+				96570DAD1A2107AF00782DC4 /* JavaNativeFoundation.framework */,
+				96570DAF1A2107B700782DC4 /* JavaRuntimeSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96887E361A26288200A062F0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96887E371A26289200A062F0 /* HomeView.h */,
+				96887E381A26289200A062F0 /* HomeView.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96887E4C1A2635FF00A062F0 /* PushNotificationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96887E611A2635FF00A062F0 /* Build configuration list for PBXNativeTarget "PushNotificationTool" */;
+			buildPhases = (
+				96887E4D1A2635FF00A062F0 /* Sources */,
+				96887E511A2635FF00A062F0 /* Frameworks */,
+				96887E571A2635FF00A062F0 /* Resources */,
+				966AD8D11A39B860003EB919 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotificationTool;
+			productName = PushNotificationManager;
+			productReference = 96887E641A2635FF00A062F0 /* PushNotificationTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967D3DA11A17FF4D0021F596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mulla;
+				TargetAttributes = {
+					96887E4C1A2635FF00A062F0 = {
+						DevelopmentTeam = R5TF4P52G6;
+					};
+				};
+			};
+			buildConfigurationList = 967D3DA41A17FF4D0021F596 /* Build configuration list for PBXProject "PushNotificationTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967D3DA01A17FF4D0021F596;
+			productRefGroup = 967D3DAA1A17FF4D0021F596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96887E4C1A2635FF00A062F0 /* PushNotificationTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96887E571A2635FF00A062F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96887E6A1A26374200A062F0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96887E4D1A2635FF00A062F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96887E4E1A2635FF00A062F0 /* main.m in Sources */,
+				96887E4F1A2635FF00A062F0 /* HomeView.m in Sources */,
+				96887E501A2635FF00A062F0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96887E681A26374200A062F0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96887E691A26374200A062F0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967D3DC41A17FF4D0021F596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		967D3DC51A17FF4D0021F596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96887E621A2635FF00A062F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer: Farooq Mulla (BG9CTUJ95A)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Farooq Mulla (BG9CTUJ95A)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Frameworks",
+				);
+				INFOPLIST_FILE = "PushNotification/PushNotificationTool-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = PushNotificationTool;
+				PROVISIONING_PROFILE = "c7b84ac7-3a75-45e7-88c1-57968c179062";
+			};
+			name = Debug;
+		};
+		96887E631A2635FF00A062F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Farooq Mulla (R5TF4P52G6)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application: Farooq Mulla (R5TF4P52G6)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Frameworks",
+				);
+				INFOPLIST_FILE = "PushNotification/PushNotificationTool-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = PushNotificationTool;
+				PROVISIONING_PROFILE = "12140b18-b669-4465-a807-81876be7830d";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967D3DA41A17FF4D0021F596 /* Build configuration list for PBXProject "PushNotificationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967D3DC41A17FF4D0021F596 /* Debug */,
+				967D3DC51A17FF4D0021F596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96887E611A2635FF00A062F0 /* Build configuration list for PBXNativeTarget "PushNotificationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96887E621A2635FF00A062F0 /* Debug */,
+				96887E631A2635FF00A062F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967D3DA11A17FF4D0021F596 /* Project object */;
+}
